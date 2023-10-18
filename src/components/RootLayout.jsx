@@ -11,6 +11,7 @@ import Button from "./Button";
 import clsx from "clsx";
 import Offices from "./Offices";
 import SocialM from "./SocialM";
+import Footer from "./Footer";
 const Header = ({
   panelId,
   invert = false,
@@ -194,6 +195,7 @@ const RootLayoutInner = ({ children }) => {
           className="relative isolate flex w-full flex-col pt-9"
         >
           <main className="w-full flex-auto">{children}</main>
+          <Footer />
         </motion.div>
       </motion.div>
     </MotionConfig>

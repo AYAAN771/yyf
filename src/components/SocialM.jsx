@@ -28,7 +28,7 @@ export const SocialMediaProfiles = [
   { title: "Twitter", href: "https://twitter.com", icon: BsTwitter },
 ];
 
-const SocialM = ({ className, invert = false }) => {
+export const SocialM = ({ className, invert = false }) => {
   return (
     <ul
       role="list"
