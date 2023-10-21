@@ -1,4 +1,4 @@
-import SocialM from "@/components/SocialM";
+import { SocialMediaProfiles } from "@/components/SocialM";
 import React from "react";
 
 export const navigation = [
@@ -29,6 +29,6 @@ export const navigation = [
   },
   {
     title: "Connect",
-    links: SocialM,
+    links: SocialMediaProfiles,
   },
 ];
